@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Conter from './components/counterComponents.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Conter />
   </React.StrictMode>,
   document.getElementById('root')
 );
